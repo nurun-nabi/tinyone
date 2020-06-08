@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: sans-serif, arial;
+    font-family: 'PT Sans', sans-serif;
     height: 3000px;
 }
 html{
@@ -34,6 +34,126 @@ p {
 .clear {
     overflow: hidden;
 }
+
+/* header area start */
+#header-area{
+    background: #fcdb00;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.custom-menu ul li a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #010101 !important;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.custom-menu ul li{
+    padding: 0px 30px;
+}
+/* header area end */
+/* banner area start */
+.slider-area{
+    background: #fcdb00;
+    padding-bottom: 108px;
+}
+.inspire h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700; 
+    font-size: 32px;
+    color: #010101;
+    text-transform: initial;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.inspire h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: initial;
+    color: #313841;
+    padding-bottom: 25px;
+}
+.inspire p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #555555;  
+}
+.inspire ul li{
+   padding: 15px; 
+}
+.inspire ul li a{
+    font-size: 50px;
+    color: #010101;
+}
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.carousel-indicators{
+    bottom: -70px;
+}
+
+.carousel-indicators li:hover{
+    background-color: #010101;
+}
+.carousel-indicators li:active{
+    background-color: #010101;
+}
+
+/* banner area end */
+/* feature area start */
+.feature-area{
+    padding: 110px 0px;
+}
+.feature-top-text h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    text-transform: initial;
+    padding-bottom: 15px;
+}
+.feature-top-text p {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	color: #313841;
+	text-transform: initial;
+	padding: 0px 6%;
+}
+/* its for srrvice area */
+.service{
+    padding-top: 90px;
+}
+.service-icon i{
+    font-size: 45px;
+    padding-right: 5px;
+}
+.service-text h4{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #010101;
+    padding-bottom: 15px;
+}
+.service-text p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: initial;
+    color: #898989;
+    padding-right: 10px;
+
+}
+/* its for service second part */
+.service-second{
+    padding-top: 90px;
+}
+
+/* feature area end */
 
 
 /* font-family: 'PT Sans', sans-serif; */
