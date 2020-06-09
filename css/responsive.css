@@ -46,7 +46,7 @@
         font-size: 14px;
     }
        
-    }
+    
     /* its for feature/service part */
     .feature-area{
         text-align: center;
@@ -76,11 +76,35 @@
     .service-text p {
         font-size: 14px;
     }
+    .custom-form {
+        padding-top: 43px;
+       text-align: center;
+    }
+    .footer-area{
+        font-size: 10px;
+    }
+    .footer-area span {
+        font-size: 12px;
+        padding-right: 5%;
+    
+    }
+    .footer-area p{
+        font-size: 12px;
+    }
+    .footer-area ul li a{
+        font-size: 12px;
+    }
+    .footer-area {
+    padding: 70px 0;
+     
+    }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-   
+    .service {
+        padding-top: 50px;
+    }
     .service-icon i{
         font-size: 30px;
     }

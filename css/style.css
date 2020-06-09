@@ -155,5 +155,86 @@ p {
 
 /* feature area end */
 
+/* communicate part start */
+.communicate-part{
+    background-color: #010101;
+    padding-top: 90px;
+}
+.communicate-text h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    text-transform: initial;
+    color: #d1b600;
+}
+.communicate-text p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: initial;
+    color: #898989;
+    padding: 1px 6%;
+    margin-bottom: 0 !important;
+}
+.custom-form{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.form-control {
+    padding: 25px 7%;
+    color: #fcdb00;
+}
+.custom-btn {
+	padding: 14px 40px;
+	background: #fcdb00;
+	border: none;
+}
+.custom-btn:hover {
+	background: #fcdb00;
+	border: none;
+}
+.social-media ul li{
+    padding: 10px 15px;
+}
+.social-media ul li a {
+	font-size: 30px;
+	padding: 5px 12px;
+	line-height: 50px;
+	background-color: #fcdb00;
+	color: #010101;
+	border-radius: 5px;
+}
+
+/* communicate part end */
+/* footer area design start */
+.footer-area{
+    background: #010101;
+    padding: 110px 0;
+    color: #ffffff;
+}
+.footer-area span {
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+
+}
+.footer-area address {
+    padding-right: 16%;
+    margin-bottom: 0;
+}
+.footer-area p{
+    font-size: 16px;
+    font-weight: normal; 
+    margin-bottom: 0;
+    padding-right: 20px;
+}
+.footer-area ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+/* footer area design end */
+
 
 /* font-family: 'PT Sans', sans-serif; */
